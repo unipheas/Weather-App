@@ -1,1 +1,0 @@
-var ipInfo={};$.getJSON("http://ipinfo.io",function(o){console.log(o),ipInfo=o.ip}),console.log(ipInfo);
